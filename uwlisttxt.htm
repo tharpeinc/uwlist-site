@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--
+    New Perspectives on HTML
+    Tutorial 2
+    Case Problem 1
+
+    Wisconsin Colleges and Universities
+    Author: SKYE THARPE
+    Date: 6/14/24
+
+    Filename:         uwlist.htm
+    Supporting files: hestyles.css, highered.jpg, modernizr-1.5.js
+-->
+
+<meta charset="UTF-8" />
+<title>Wisconsin Colleges and Universities</title>
+<base target="collegeWin">
+<script src="modernizr-1.5.js"></script>
+<link href="hestyles.css" rel="stylesheet" type="text/css" />
+<style>
+    .nav-buttons {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-buttons button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+<header>
+    <img src="highered.jpg" alt="Higher Education" />
+</header>
+
+<section>
+    <h1>Wisconsin Colleges and Universities</h1>
+    <div class="nav-buttons">
+        <button onclick="location.href='#private'">Private Colleges and Universities</button>
+        <button onclick="location.href='#technical'">Technical College System</button>
+        <button onclick="location.href='#public'">University of Wisconsin System</button>
+    </div>
+    
+    <h2 id="private">Private Colleges and Universities</h2>
+    <ul>
+        <li><a href="https://www.alverno.edu" target="_blank">Alverno College</a></li>
+        <li><a href="https://www.beloit.edu" target="_blank">Beloit College</a></li>
+        <li><a href="https://www.stritch.edu" target="_blank">Cardinal Stritch University</a></li>
+        <li><a href="https://www.carrollu.edu" target="_blank">Carroll College</a></li>
+        <li><a href="https://www.cuw.edu" target="_blank">Concordia University Wisconsin</a></li>
+        <li><a href="https://www.edgewood.edu" target="_blank">Edgewood College</a></li>
+        <li><a href="https://www.lakeland.edu" target="_blank">Lakeland College</a></li>
+        <li><a href="https://www.lawrence.edu" target="_blank">Lawrence University</a></li>
+        <li><a href="https://www.marianuniversity.edu" target="_blank">Marian College</a></li>
+        <li><a href="https://www.mcw.edu" target="_blank">Medical College of Wisconsin</a></li>
+        <li><a href="https://www.miad.edu" target="_blank">Milwaukee Institute of Art and Design</a></li>
+        <li><a href="https://www.msoe.edu" target="_blank">Milwaukee School of Engineering</a></li>
+        <li><a href="https://www.mtmary.edu" target="_blank">Mount Mary College</a></li>
+        <li><a href="https://www.marquette.edu" target="_blank">Marquette University</a></li>
+        <li><a href="https://law.marquette.edu" target="_blank">Marquette University Law School</a></li>
+        <li><a href="https://www.nashotah.edu" target="_blank">Nashotah House</a></li>
+        <li><a href="https://www.northland.edu" target="_blank">Northland College</a></li>
+        <li><a href="https://www.ripon.edu" target="_blank">Ripon College</a></li>
+        <li><a href="https://www.shst.edu" target="_blank">Sacred Heart School of Theology</a></li>
+        <li><a href="https://www.sl.edu" target="_blank">Silver Lake College</a></li>
+        <li><a href="https://www.snc.edu" target="_blank">St. Norbert College</a></li>
+        <li><a href="https://www.viterbo.edu" target="_blank">Viterbo University</a></li>
+        <li><a href="https://www.wlc.edu" target="_blank">Wisconsin Lutheran College</a></li>
+    </ul>
+
+    <h2 id="technical">Technical College System</h2>
+    <ul>
+        <li><a href="https://www.blackhawk.edu" target="_blank">Blackhawk Technical College</a></li>
+        <li><a href="https://www.cvtc.edu" target="_blank">Chippewa Valley Technical College</a></li>
+        <li><a href="https://www.fvtc.edu" target="_blank">Fox Valley Technical College</a></li>
+        <li><a href="https://www.gtc.edu" target="_blank">Gateway Technical College</a></li>
+        <li><a href="https://www.gotoltc.edu" target="_blank">Lakeshore Technical College</a></li>
+        <li><a href="https://www.madisoncollege.edu" target="_blank">Madison Area Technical College</a></li>
+        <li><a href="https://www.mstc.edu" target="_blank">Mid-State Technical College</a></li>
+        <li><a href="https://www.matc.edu" target="_blank">Milwaukee Area Technical College</a></li>
+        <li><a href="https://www.morainepark.edu" target="_blank">Moraine Park Technical College</a></li>
+        <li><a href="https://www.nicoletcollege.edu" target="_blank">Nicolet Area Technical College</a></li>
+        <li><a href="https://www.ntc.edu" target="_blank">Northcentral Technical College</a></li>
+        <li><a href="https://www.nwtc.edu" target="_blank">Northeast Wisconsin Technical College</a></li>
+        <li><a href="https://www.swtc.edu" target="_blank">Southwest Wisconsin Technical College</a></li>
+        <li><a href="https://www.wctc.edu" target="_blank">Waukesha County Technical College</a></li>
+        <li><a href="https://www.westerntc.edu" target="_blank">Western Technical College</a></li>
+        <li><a href="https://www.witc.edu" target="_blank">Wisconsin Indianhead Technical College</a></li>
+    </ul>
+
+    <h2 id="public">University of Wisconsin System</h2>
+    <ul>
+        <li><a href="https://www.uwgb.edu" target="_blank">UW-Green Bay</a></li>
+        <li><a href="https://www.uwlax.edu" target="_blank">UW-La Crosse</a></li>
+        <li><a href="https://www.wisc.edu" target="_blank">UW-Madison</a></li>
+        <li><a href="https://www.uwm.edu" target="_blank">UW-Milwaukee</a></li>
+        <li><a href="https://www.uwosh.edu" target="_blank">UW-Oshkosh</a></li>
+        <li><a href="https://www.uwp.edu" target="_blank">UW-Parkside</a></li>
+        <li><a href="https://www.uwplatt.edu" target="_blank">UW-Platteville</a></li>
+        <li><a href="https://www.uwrf.edu" target="_blank">UW-River Falls</a></li>
+        <li><a href="https://www.uwsp.edu" target="_blank">UW-Stevens Point</a></li>
+        <li><a href="https://www.uwstout.edu" target="_blank">UW-Stout</a></li>
+        <li><a href="https://www.uwsuper.edu" target="_blank">UW-Superior</a></li>
+        <li><a href="https://www.uww.edu" target="_blank">UW-Whitewater</a></li>
+    </ul>
+
+    <footer>
+        Higher &#9830; Ed: The Directory of Higher Education Opportunities
+    </footer>
+</section>
+
+</body>
+
+</html>
